@@ -94,11 +94,11 @@ const Experience = () => {
 					<p className="py-6">These the tech i've work with</p>
 				</div>
 
-				<div className="grid grid-cols-2 sm:grid-cols-3 gap-8 justify-center py-8 px-12 sm:px-0">
+				<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 justify-center py-8 px-12 sm:px-0">
 					{exp.map(({ id, src, title, style }) => (
 						<div
 							key={id}
-							className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style} text-center`}
+							className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style} text-center max-w-xs`}
 						>
 							<img src={src} alt="" className="w-20 mx-auto" />
 							<p className="mt-4">{title}</p>

@@ -44,15 +44,15 @@ const Portfolio = () => {
 					{Projects.map(({ id, src, project }) => (
 						<div
 							key={id}
-							className="shadow-md shadow-gray-600 rounded-lg max-w-xs"
+							className="shadow-md shadow-gray-600 rounded-lg flex flex-col"
 						>
 							<img
 								src={src}
 								alt=""
 								className="rounded-md w-full h-auto duration-200 hover:scale-105"
 							/>
-							<div className="flex items-center justify-center ">
-								<p className="w-full px-2  m-3 duration-200 text-gray-300 hover:scale-105">
+							<div className="flex items-center justify-center p-2">
+								<p className="w-full text-center text-gray-300 hover:scale-105">
 									{project}
 								</p>
 							</div>
