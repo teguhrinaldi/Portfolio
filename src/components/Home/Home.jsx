@@ -19,7 +19,7 @@ const Home = () => {
 						I'm Teguh Rinaldi
 					</h2>
 					<p className="text-gray-400 py-4 max-w-md">
-						An enthusiastic Front End developer, breathing life into code with
+						An enthusiastic Web developer, breathing life into code with
 						my skills and creativity, crafting interfaces that not only
 						captivate attention but also mesmerize with their beauty. With a
 						fiery passion, I turn every project into a stage to express
