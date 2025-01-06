@@ -18,7 +18,7 @@ const About = () => {
 						</p>
 					</div>
 					<p className="text-xl">
-						Hey there! I'm Teguh Rinaldi, a dedicated Front End developer fueled
+						Hey there! I'm Teguh Rinaldi, a dedicated Web developer fueled
 						by creativity and a knack for tackling challenges head-on. With a
 						fusion of technical expertise and a user-focused mindset, I'm
 						committed to crafting seamless digital solutions that resonate with
